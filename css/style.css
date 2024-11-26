@@ -104,7 +104,7 @@ body {
   margin-top:-115px;
 
   width: var(--width-full);
-  background-image: url('https://s3-alpha-sig.figma.com/img/373d/b832/eb54bd65b2060f54024c3d369b383fa9?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fvtAJ1b6ZQt9aYpOYcn5ntBUCr9rmickPSdGhjCAbSkbFIBfduczAGk9fURKZ9AFjS0kYid1JYcROQm7Up1fK5-JDOiDtkqsVDtT4VxPMDUUezCqNA7OlaFQtU1~6nDnI3pK76EWQWUyWieaTgJSnWyrXsKYPWIJRci9fJVooSiKEFgUMl0d3P70TUuG1niFH9AnvSVQD60ey6NK5~NnNzrFKk20LTO6h5BuLwpx1EcmpZNjNmLEuEZ-ZSG-iRcJkiFD-rLwKgrVdY5OIaJbIpLSne-KK50M34gBVUklaZet25v2YIoiwxxZ5jqefd4N2eokPbqtavRB-L~UfT41wQ__');
+  background-image: url(https://s3-alpha-sig.figma.com/img/373d/b832/eb54bd65b2060f54024c3d369b383fa9?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OtNOcBuZ-xUVUDlYbdAnwlRSqyrctAPZ6ylMB9DKgn6X42NZi7WUC2Ykbkqlpi58q05wjVSs0iPvdv~Q-d3Ko4aV9E6zi0-LnkVNgenwuHkMMtDfiucX1j1ZPhv5HkeRho7RQPJhqwweFlwlaHiJo3KFU41Wz89M02c5mqwF-sg9weUJLoiXRAj0CxYd2E2s5~k-PmmXBFmQWWqyhqlX-imyhx4RYvaBnlOkrDd-iA2L9hFCf4IrPUq6usY9jHI2fSP-kpJQpr8faDIMHUfMbi3p8q8qjjc5qVdgEflVlmxLRrVEpOLpaZvecZD~b2SLVSxewXiuxAJHXo7o~s7ing__);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -418,6 +418,28 @@ p [data-category="seafood"]
 }
 
 .bigImage{
+  height: 610px;
+  margin-top: 200px;
+  background-image: url('../images/big\ image.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 0 0, 100% 20%, 100% 100%, 0% 100%);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.textBox{
+  padding: 35px;
+  max-width: 440px; 
+  background-color: #EBEBEB;
+  height: fit-content;
+  margin-right: 5%;
+}
+
+/* .bigImage{
   position: relative;
   height: 610px;
   margin-top: 200px;
@@ -426,9 +448,9 @@ p [data-category="seafood"]
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(0 0, 0 0, 100% 20%, 100% 100%, 0% 100%); 
-}
+} */
 
-.textBox{
+/* .textBox{
   padding: 35px;
   max-width: 440px; 
   background-color: #EBEBEB;
@@ -436,7 +458,7 @@ p [data-category="seafood"]
   right: 20px; 
   top: 130px; 
   z-index: 10;
-}
+} */
 
 
 .bold{
